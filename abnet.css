@@ -52,14 +52,15 @@ body {
 }
 
 #activities {
-	margin-left: 100px;
 	margin-top: 10px;
-	width: 300px;	
+	width: 220px;
+	margin: 0 auto;
 }
 
 .jcarousel-wrapper {
     margin: 20px auto;
     position: relative;
+	width: 220px;
     border: 10px solid #fff;
     -webkit-border-radius: 5px;
        -moz-border-radius: 5px;
@@ -178,5 +179,30 @@ body {
     color: #fff;
     opacity: 1;
     text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.75);
+}
+
+#activity_buttons {
+	width: 500px;
+	margin-left: 180px;
+	margin-top: 20px;
+}
+
+#fMore {
+	float: left;	
+}
+
+#orgAct {
+	margin-left: 15px;
+	float: left;
+}
+
+#fMore {
+	height: 50px;
+	width: 100px;	
+}
+
+#orgAct {
+	height: 50px;
+	width: 200px;	
 }
 
