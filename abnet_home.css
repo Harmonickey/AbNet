@@ -325,5 +325,10 @@ body {
 	top:1px;
 }
 
+#location_captions {
+	word-spacing: 150px;
+	padding-left: 80px;	
+}
+
  
 
