@@ -61,7 +61,6 @@ $(document).ready(function() {
 	</div>
 	<div id="top_buttons">	
     	<input type="button" id="AddtoFriends" value="+AddtoFriends">
-        
         <a href="../index.html"><input type="button" id="home" value="Home"/></a>
     </div>
 
