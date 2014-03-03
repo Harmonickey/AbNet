@@ -53,7 +53,7 @@
             <h3><I><B> Search Friends/Activities </I></B></h3>
         </div>
         <div id="back_home">	
-            <input type="button" id="back" value="Back" onclick="getLastPage()"/>
+            <a href="../index.html"><input type="button" id="back" value="Back"/></a>
             <a href="../index.html"><input type="button" id="home" value="Home"/></a>
         </div>
 	</div>

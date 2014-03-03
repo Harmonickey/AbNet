@@ -38,6 +38,10 @@ $(document).ready(function() {
      $('#My_Calendar').fullCalendar({
         events: 'http://www.google.com/calendar/feeds/liangge1.2013%40u.northwestern.edu/public/basic'
     });
+	
+	$previous = document.referrer;
+	
+	$("<a href='" + $previous + "'><input type='button' id='back' value='Back'/></a>").insertAfter("#AddtoFriends");
 });
 
 </script>
@@ -57,7 +61,7 @@ $(document).ready(function() {
 	</div>
 	<div id="top_buttons">	
     	<input type="button" id="AddtoFriends" value="+AddtoFriends">
-        <input type="button" id="back" value="Back" onclick="getLastPage()"/>
+        
         <a href="../index.html"><input type="button" id="home" value="Home"/></a>
     </div>
 
