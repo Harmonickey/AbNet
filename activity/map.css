@@ -12,9 +12,6 @@ body {
 	float: left;
 	height: 100%;
 	width: 14.5%;
-	-webkit-box-shadow: 7px 7px 5px 0px rgba(50, 50, 50, 0.75);
-	-moz-box-shadow:    7px 7px 5px 0px rgba(50, 50, 50, 0.75);
-	box-shadow:         7px 7px 5px 0px rgba(50, 50, 50, 0.75);	
 }
 
 #back_home {
@@ -22,6 +19,7 @@ body {
 	height: 100%;
 	width: 15.5%;	
 	padding-top: 30px;
+	background: rgb(82,0,99);
 }
 
 #title {
@@ -29,9 +27,10 @@ body {
 	width: 70%;	
 	float: left;
 	color: #8c1515;
+	background: rgb(82,0,99);
 }
 
-#title h1 {
+#title h3 {
 	text-align: center;	
 	margin-top: 20px;
 	font-size: 80px;
@@ -40,11 +39,18 @@ body {
 #top-section {
 	height: 20%;
 	width: 100%;	
+	-webkit-box-shadow: 7px 7px 5px 0px rgba(50, 50, 50, 0.75);
+	-moz-box-shadow:    7px 7px 5px 0px rgba(50, 50, 50, 0.75);
+	box-shadow:         7px 7px 5px 0px rgba(50, 50, 50, 0.75);
 }
 
 #bottom-section {
 	height: 70%;
 	width: 100%;
+}
+
+#left {
+	float: left;	
 }
 
 a:link, a:visited{
@@ -75,18 +81,6 @@ a:link, a:visited{
     color: yellow;
     font-size: 20px;
 }
-
-
-/*
-.button {
-    border-radius: 5px;
-    border-width: 1px;
-    border-style:solid;
-}
-.button:active {
-    background-color:#ffff66;
-    -webkit-box-shadow: inset 2px 4px 6px #cc6633;
-}*/
 
 .button {
 	-moz-box-shadow:inset 0px 1px 0px 0px #bbdaf7;
@@ -135,26 +129,69 @@ a:link, a:visited{
 	top:1px;
 }
 
+#startnew {
+	-moz-box-shadow:inset 0px 1px 0px 0px #d9fbbe;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #d9fbbe;
+	box-shadow:inset 0px 1px 0px 0px #d9fbbe;
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #b8e356), color-stop(1, #a5cc52) );
+	background:-moz-linear-gradient( center top, #b8e356 5%, #a5cc52 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#b8e356', endColorstr='#a5cc52');
+	background-color:#b8e356;
+	-webkit-border-top-left-radius:20px;
+	-moz-border-radius-topleft:20px;
+	border-top-left-radius:20px;
+	-webkit-border-top-right-radius:20px;
+	-moz-border-radius-topright:20px;
+	border-top-right-radius:20px;
+	-webkit-border-bottom-right-radius:20px;
+	-moz-border-radius-bottomright:20px;
+	border-bottom-right-radius:20px;
+	-webkit-border-bottom-left-radius:20px;
+	-moz-border-radius-bottomleft:20px;
+	border-bottom-left-radius:20px;
+	text-indent:0;
+	border:1px solid #83c41a;
+	display:inline-block;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	font-style:normal;	
+	height:50px;
+	line-height:50px;
+	width:175px;
+	text-decoration:none;
+	text-align:center;
+	text-shadow:1px 1px 0px #528ecc;
+	margin: 30px 10px 0px 30px;
+}
 
+#startnew:hover {
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #a5cc52), color-stop(1, #b8e356) );
+	background:-moz-linear-gradient( center top, #a5cc52 5%, #b8e356 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#a5cc52', endColorstr='#b8e356');
+	background-color:#a5cc52;
+}
+#startnew:active {
+	position:relative;
+	top:1px;
+}
 
 #map-canvas {
-    position: relative;
-    margin-top: -250px;
-    margin-left: 250px;
     width: 750px;
-    height: 450px
+    height: 450px;
+	float: left;
+	margin: 30px;
 }
 
 #searchBox {
-    position: relative;
-    float: right;
-    margin-top: -400px;
-    margin-right: 50px;
+    float: left;
+	margin-top: 30px;
 }
 
 #search {
-    width: 200px;
-    height: 20px;
+    width: 165px;
+    height: 25px;
     font-size: 15px;
 }
 
@@ -210,4 +247,43 @@ a:link, a:visited{
 
 #back, #home {
 	width: 86px;
+}
+
+#searchButton {
+    position: relative;
+    border: none;
+    width: 80px;
+    height: 30px;
+    outline: none;
+    padding: 0 0;
+    font-size: 20px;
+    font-weight:300;
+
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+  -webkit-transition-property: background;
+  -moz-transition-property: background;
+  -o-transition-property: background;
+  transition-property: background;
+  -webkit-transition-duration: 0.3s;
+  -moz-transition-duration: 0.3s;
+  -o-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  background: #00a1cb;
+  color: white;
+  text-shadow: none;
+  border: none;
+
+}
+#searchButton:hover {
+  background: #00b5e5;
+}
+#searchButton:active {
+  -webkit-transition-duration: 0s;
+  -moz-transition-duration: 0s;
+  -o-transition-duration: 0s;
+  transition-duration: 0s;
+  background: #1495b7;
+  color: #00647f;
 }

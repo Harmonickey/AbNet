@@ -4,11 +4,6 @@
     <title>Abnet | Map Page</title>
     <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
     <meta charset="utf-8">
-    <!-- Latest compiled and minified CSS -->
-    <link rel="stylesheet" href="../bootstrap-3.1.1/css/bootstrap.min.css" />
-    
-    <!-- Optional theme -->
-    <link rel="stylesheet" href="../bootstrap-3.1.1/css/bootstrap-theme.min.css" />
     <link rel="stylesheet" href="map.css">
 
     <!--
@@ -20,35 +15,30 @@
     <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=true"></script>
     <script type="text/javascript" src="map.js"></script>
   </head>
-  <body>
-    <div id="top-section">
-        <div id="logo">
-            <a href="index.html" ><img src="../abnet.png" height="144" width="200" alt="abnet"/></a>
-        </div>
-        <div id="title">
-            <h1><I><B> Search Friends/Activities </I></B></h1>
-        </div>
-        <div id="back_home">	
-            <input type="button" id="back" value="Back" onclick="getLastPage()"/>
-            <a href="../index.html"><input type="button" id="home" value="Home"/></a>
-        </div>
+  <body class="background">
+    <header id="map-header">
+	<div id="logo">
+	    <h1 onclick="window.location.href='index.html'">Abnet</h1>
 	</div>
-
-    <div id="bottom-section">
-
-        <div>
-            <input type="button" class="button" onclick="showMarkers();" value="Show activities" />
-        </div>
-        <div>
-            <input type="button" class="button" onclick="showFriends();" value="Show friends" />
-        </div>
-        <div>
-            <a href="../create/create.html"> <input type="button" class="button" value="Start new activity" /> </a>
-        </div>
-        <div id="map-canvas"></div>
-        <div id="searchBox">
-            <input type="text" id="search" value="Search activity or friend"/>
-        </div>
-    </div>
+	<a href='index.html' class="slogan">Home</a>
+	<a href='index.html' class="slogan">About us</a>
+    </header>
+    <section class="container">
+	<div id="title"><B>Map of your Location</B></div>
+	<div>
+	    <button class="button" onclick="showMarkers();">Show activities</button>
+	</div>
+	<div>
+	    <button class="button" onclick="showFriends();">Show friends</button>
+	</div>
+	<div>
+	    <button class="button" onclick="window.location.href='create.html'">Start new activity</button>
+	</div>
+	<div id="map-canvas"></div>
+	<div id="searchBox">
+	    <input type="text" id="search" value="Search activity or friends"/>
+	    <button id="searchButton">Search</button>
+	</div>
+    </section>
   </body>
 </html>

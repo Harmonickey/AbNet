@@ -129,9 +129,9 @@ function attachActivityMessage(marker, num){
   });
 }
 function attachFriendMessage(marker, num){
-  var message = ['<a href="profile.html">Tom</a>',
-		 '<a href="profile.html">Jim</a>',
-		 '<a href="profile.html">Peter</a>'];
+  var message = ['<a href="../Friend_Profile/abnet_friend_profile.html">Tom</a>',
+		 '<a href="../Friend_Profile/abnet_friend_profile.html">Jim</a>',
+		 '<a href="../Friend_Profile/abnet_friend_profile.html">Peter</a>'];
   var infowindow = new google.maps.InfoWindow({
     content: message[num]
   });

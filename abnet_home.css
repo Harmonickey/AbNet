@@ -26,7 +26,7 @@ body {
 }
 
 #left {
-		
+	
 	float: left;
 	height: 100%;
 	width: 45%;
@@ -48,12 +48,14 @@ body {
 	float: left;
 	height: 100%;
 	width: 85.5%;
+	background: rgb(82,0,99);
 }
 
 #bottom-section {
 	
 	height: 80%;
 	width: 100%;
+	
 }
 
 #activities {
