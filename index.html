@@ -8,12 +8,28 @@
 
 <!-- Optional theme -->
 <link rel="stylesheet" href="bootstrap-3.1.1/css/bootstrap-theme.min.css">
-
+<link rel="stylesheet" href="https://code.jquery.com/ui/1.10.4/themes/smoothness/jquery-ui.css">
+  
 <!-- Latest compiled and minified JavaScript -->
 <!--<script src="bootstrap-3.1.1/js/bootstrap.min.js"></script>-->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script src="https://code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
 <script src="http://sorgalla.com/jcarousel/dist/jquery.jcarousel.min.js"></script>
 <script src="abnet.js"></script>
+<script type="text/javascript">
+	$(function() {
+		var availableTags = [
+		  "London",
+		  "Beijing",
+		  "Tokyo",
+		  "Paris"
+		];
+		$( "#tftextinput" ).autocomplete({
+		  source: availableTags
+		});
+	});
+</script>
+
 <title>AbNet - Abroad Networking</title>
 </head>
 
@@ -27,7 +43,7 @@
 	<div id="search">
 		<div id="tfheader">
 		<form id="tfnewsearch" method="get" action="">
-		        <input type="text" class="tftextinput" name="q" size="21" maxlength="120"><input type="submit" value="search" class="tfbutton">
+		        <input type="text" id="tftextinput" name="q" size="21" maxlength="120"><input type="submit" value="search" class="tfbutton">
 		</form>
 	<div class="tfclear"></div>
 	</div>
