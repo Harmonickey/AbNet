@@ -81,19 +81,19 @@ $(document).ready(function() {
         </div>
         <div id="left_middle">
             <h2>Travel Journal</h2>
-            <p><a href="./abnet_friend_profile.html">Joyful Trip in China</a> It is really a fantasy trip in China, I drive in Zhejiang, breathe the fresh air, have fun with the food.....</p>
-            <p><a href="./abnet_friend_profile.html">Welcome to America!</a> Alough freezing cold in Chicago, it is still a beautiful place to live. Chicago has wonderful trafic system, which helps vistors a lot.....</p>
-            <p><a href="./abnet_friend_profile.html">Small Japan!</a> Really a cute country! It is a good place to live. Japan has wonderful trafic system, which helps vistors a lot.....</p>
-            <p><a href="./abnet_friend_profile.html">Let's Surf!</a> I love SEA! Miami is the dream place for me. Not only the Miami Heat, LBJ, D-wade. Miami has wonderful scenery, which never.....</p>
-            <p><a href="./abnet_friend_profile.html">See More...</a></p>
+            <p><a href="abnet_friend_profile.php">Joyful Trip in China</a> It is really a fantasy trip in China, I drive in Zhejiang, breathe the fresh air, have fun with the food.....</p>
+            <p><a href="abnet_friend_profile.php">Welcome to America!</a> Alough freezing cold in Chicago, it is still a beautiful place to live. Chicago has wonderful trafic system, which helps vistors a lot.....</p>
+            <p><a href="abnet_friend_profile.php">Small Japan!</a> Really a cute country! It is a good place to live. Japan has wonderful trafic system, which helps vistors a lot.....</p>
+            <p><a href="abnet_friend_profile.php">Let's Surf!</a> I love SEA! Miami is the dream place for me. Not only the Miami Heat, LBJ, D-wade. Miami has wonderful scenery, which never.....</p>
+            <p><a href="abnet_friend_profile.php">See More...</a></p>
         </div>
         <div id=left_bottom>
             <h2>Travel Photoes</h2>
-            <a href="./abnet_friend_profile.html"><img src="1.png" height="60" width="100" alt="1" id="a.png"/></a>
-            <a href="./abnet_friend_profile.html"><img src="2.png" height="60" width="100" alt="2" id="b.png"/></a>
-            <a href="./abnet_friend_profile.html"><img src="3.png" height="60" width="100" alt="3" id="c.png"/></a>
-            <a href="./abnet_friend_profile.html"><img src="4.png" height="60" width="100" alt="4" id="d.png"/></a>
-            <p><a href="./abnet_friend_profile.html">See More...</a></p>
+            <a href="abnet_friend_profile.php"><img src="1.png" height="60" width="100" alt="1" id="a.png"/></a>
+            <a href="abnet_friend_profile.php"><img src="2.png" height="60" width="100" alt="2" id="b.png"/></a>
+            <a href="abnet_friend_profile.php"><img src="3.png" height="60" width="100" alt="3" id="c.png"/></a>
+            <a href="abnet_friend_profile.php"><img src="4.png" height="60" width="100" alt="4" id="d.png"/></a>
+            <p><a href="abnet_friend_profile.php">See More...</a></p>
         </div>
     </div>
         

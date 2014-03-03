@@ -38,10 +38,22 @@
 		<a href="index.html" ><img src="../abnet.png" height="144" width="200" alt="abnet"/></a>
 	</div>
 	<div id="title">
-		<h1><I><B> Create Activity </I></B></h1>
+		<h3><I><B> Create Activity </I></B></h3>
 	</div>
 	<div id="back_home">	
-    	<input type="button" id="back" value="Back" onclick="getLastPage()"/>
+    	<?php
+			if (isset($_POST['org']))
+			{
+				if ($_POST['org'] == "Organize New Activity")
+				{
+					echo "<a href='../index.html'><input type='button' id='back' value='Back'/></a>";	
+				}
+				elseif ($_POST['org'] == "Start New Activity")
+				{
+					echo "<a href='../activity/map.php'><input type='button' id='back' value='Back'/></a>";
+				}
+			}
+		?>
         <a href="../index.html"><input type="button" id="home" value="Home"/></a>
     </div>
 

@@ -81,6 +81,15 @@ function initialize() {
     i++;
   }
   clearFriends();
+  
+  if (loadedShowFriends)
+  {
+	showFriends();  
+  }
+  else (loadedShowMarkers)
+  {
+	showMarkers();
+  }
 }
 
 function setAllMap(map){

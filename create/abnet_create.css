@@ -29,28 +29,30 @@ body {
 #back_home {
 	float: left;
 	height: 100%;
-	width: 15.5%;	
-	padding-top: 30px;
+	width: 20.5%;	
+	padding-top: 45px;
+	margin-left: 28px;
 }
 
 #bottom-section {
-	height: 70%;
+	height: 80%;
 	width: 100%;
 }
 
 #title {
 	height: 100%;
-	width: 70%;	
+	width: 60%;	
 	float: left;
-	color: #8c1515;
+	color: #FFF;
 }
 
 
 
-#title h1 {
-	text-align: center;	
-	margin-top: 20px;
-	font-size: 80px;
+#title h3 {
+	text-align: left;	
+	margin-top: 40px;
+	margin-left: 20px;
+	font-size: 55px;
 }
 
 #left {
@@ -142,8 +144,8 @@ form label {
 	font-size:15px;
 	font-weight:bold;
 	font-style:normal;
-	height:40px;
-	line-height:40px;
+	height:50px;
+	line-height:50px;
 	width:86px;
 	text-decoration:none;
 	text-align:center;

@@ -13,16 +13,17 @@ body {
 
 #top{
 	height: 144px;
-	width: 100%;	
+	width: 100%;
+	-webkit-box-shadow: 7px 7px 5px 0px rgba(50, 50, 50, 0.75);
+	-moz-box-shadow:    7px 7px 5px 0px rgba(50, 50, 50, 0.75);
+	box-shadow:         7px 7px 5px 0px rgba(50, 50, 50, 0.75);	
+	background: rgb(82,0,99);
 }
 
 #logo {
 	float: left;
 	height: 100%;
-	width: 14.5%;
-	-webkit-box-shadow: 7px 7px 5px 0px rgba(50, 50, 50, 0.75);
-	-moz-box-shadow:    7px 7px 5px 0px rgba(50, 50, 50, 0.75);
-	box-shadow:         7px 7px 5px 0px rgba(50, 50, 50, 0.75);	
+	width: 14.5%;	
 }
 
 #top_buttons {
@@ -30,14 +31,13 @@ body {
 	height: 100%;
 	width: 45.5%;	
 	padding-top: 45px;
-	background-color: ;
 }
 
 #headline {
 	height: 100%;
 	width: 40%;	
 	float: left;
-	color: #8c1515;
+	color: #FFF;
 }
 
 #headline h1 {

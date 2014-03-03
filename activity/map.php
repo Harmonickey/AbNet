@@ -17,27 +17,32 @@
     See: https://developers.google.com/maps/documentation/javascript/tutorial#Loading_the_Maps_API
     Author: Fan Wang (AbNet)
     -->
-    <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=true"></script>
-    <script type="text/javascript" src="map.js"></script>
-    
     <script type="text/javascript">
-		$(function() {
-		
+		var loadedShowFriends = false;
+		var loadedShowMarkers = false;
 		<?php
 			if (isset($_POST['map']))
 			{
 				if ($_POST['map'] == "Find More Friends")
 				{
-					echo "showFriends();";	
+					echo "\n";
+					echo "loadedShowFriends = true;";	
+					echo "\n";
 				}
 				else if ($_POST['map'] == "Find More Activities")
 				{
-					echo "showMarkers();";	
+					echo "\n";
+					echo "loadedShowMarkers = true;";
+					echo "\n";	
 				}
 			}
 		?>
-		});
 	</script>
+    <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=true"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script type="text/javascript" src="map.js"></script>
+    
+    
   </head>
   <body>
     <div id="top-section">
@@ -56,13 +61,15 @@
     <div id="bottom-section">
 		<div id="left">
             <div>
-                <input type="button" class="button" onclick="showMarkers();" value="Show activities" />
+                <input type="button" id="btn1" class="button" onclick="showMarkers();" value="Show activities" />
             </div>
             <div>
-                <input type="button" class="button" onclick="showFriends();" value="Show friends" />
+                <input type="button" id="btn2" class="button" onclick="showFriends();" value="Show friends" />
             </div>
             <div>
-                <a href="../create/create.html"> <input type="button" id="startnew" value="Start new activity" /> </a>
+            	<form name="org_activity" action="create/create.php" method="post" enctype="mulitpart/form-data">
+                	<input name="org" type="submit" id="startnew" value="Start new activity" />
+                </form>
             </div>
         </div>
         <div id="map-canvas"></div>
