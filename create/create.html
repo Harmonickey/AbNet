@@ -38,7 +38,7 @@
 		<a href="index.html" ><img src="../abnet.png" height="144" width="200" alt="abnet"/></a>
 	</div>
 	<div id="title">
-		<h1> Start Activity </h1>
+		<h1> Create Activity </h1>
 	</div>
 	<div id="back_home">	
     	<input type="button" id="back" value="Back" onclick="getLastPage()"/>
@@ -46,7 +46,6 @@
     </div>
 
 </div>
-
 
 
 <div id="bottom-section">
@@ -72,8 +71,8 @@
             <div class="separator">
             <label for="activity_type" > Activity Type: </label>
             <select>
-            	<option> Option 1 </option>
-                <option> Option 2 </option>
+            	<option> Tour </option>
+                <option> Visit </option>
             </select>
             </div>
             <div class="separator">
@@ -95,6 +94,7 @@
                     <input type="checkbox" /> Mark Waters <br />
                 </div>
             </div>
+            <input type="submit" value="Create Activity" id="sub" />
         </form>
         
         <h2> Select Event Date(s) </h2>
@@ -107,7 +107,7 @@
     <div id="right">
     	<div id="friends">
         	<h2> Friends List </h2>
-        	<table border="1" bordercolor="#FFCC00" style="background-color:#FFFFCC" width="100%" cellpadding="3" cellspacing="3">
+        	<table id="flist" border="1" bordercolor="#FFCC00" style="background-color:#FFFFCC" width="80%" cellpadding="3" cellspacing="3">
             <tr>
             	<td>Name </td>
                 <td>Location</td>
