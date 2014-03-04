@@ -47,7 +47,7 @@
   <body>
     <div id="top-section">
         <div id="logo">
-            <a href="index.html" ><img src="../abnet.png" height="144" width="200" alt="abnet"/></a>
+            <a href="../activity/index.html" ><img src="../abnet.png" height="144" width="200" alt="abnet"/></a>
         </div>
         <div id="title">
             <h3><I><B> Search Friends/Activities </I></B></h3>

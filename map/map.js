@@ -126,9 +126,9 @@ function deleteFriends(){
 }
 
 function attachActivityMessage(marker, num){
-  var message = ['<a href="activity.html">Field Museum</a>',
-		 '<a href="activity.html">Dancing in Norris Center</a>',
-		 '<a href="activity.html">Shopping</a>'];
+  var message = ['<a href="../activity/abnet_activity_profile.html">Field Museum</a>',
+		 '<a href="../activity/abnet_activity_profile.html">Dancing in Norris Center</a>',
+		 '<a href="../activity/abnet_activity_profile.html">Shopping</a>'];
   var infowindow = new google.maps.InfoWindow({
     content: message[num]
   });
@@ -138,9 +138,9 @@ function attachActivityMessage(marker, num){
   });
 }
 function attachFriendMessage(marker, num){
-  var message = ['<a href="../Friend_profile/abnet_friend_profile.php">Tom</a>',
-		 '<a href="../Friend_profile/abnet_friend_profile.php">Jim</a>',
-		 '<a href="../Friend_profile/abnet_friend_profile.php">Peter</a>'];
+  var message = ['<a href="../friends/abnet_friend_profile.php">Tom</a>',
+		 '<a href="../friends/abnet_friend_profile.php">Jim</a>',
+		 '<a href="../friends/abnet_friend_profile.php">Peter</a>'];
   var infowindow = new google.maps.InfoWindow({
     content: message[num]
   });
