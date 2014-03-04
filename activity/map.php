@@ -67,7 +67,7 @@
                 <input type="button" id="btn2" class="button" onclick="showFriends();" value="Show friends" />
             </div>
             <div>
-            	<form name="org_activity" action="create/create.php" method="post" enctype="mulitpart/form-data">
+            	<form name="org_activity" action="../create/create.php" method="post" enctype="mulitpart/form-data">
                 	<input name="org" type="submit" id="startnew" value="Start new activity" />
                 </form>
             </div>
